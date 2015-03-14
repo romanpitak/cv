@@ -6,9 +6,9 @@ all: pdf
 outdir:
 	mkdir -p out
 
-pdf: out/resume.pdf
+pdf: resume.pdf
 
-out/resume.pdf: src/resume.tex outdir
+resume.pdf: resume.tex outdir
 	pdflatex -output-directory out $<
 
 clean:
