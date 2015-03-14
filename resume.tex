@@ -1,0 +1,91 @@
+\documentclass{resume}
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+
+% allow links
+\usepackage{hyperref}
+% hide links
+\hypersetup{hidelinks}
+
+
+\name{Roman Pit\'ak}
+\address{
+    +420~776~592~138 \\
+    \href{mailto:roman@pitak.net}{roman@pitak.net} \\
+    \href{http://github.com/romanpitak}{GitHub} \\
+    \href{http://pitak.net/blog}{Blog}
+}
+
+\begin{document}
+
+    \begin{rSection}{Work experience}
+
+        \begin{rSubsection}{Kindred group}{02/2013 -- present}{PHP Programmer}{}
+
+            \item I~implemented a~distributed data collection service using the~AWS~infrastructure.
+            The~servers are written in Literate~CoffeeScript and~the~data is stored in a~NoSQL database.
+
+            \item I~analyzed, designed and~developed the~back~end of web~applications.
+            They were mostly based on the~Nette~framework with MySQL,
+            but I~also developed an~e-shop in~Magneto and~collaborated on projects in Symfony~2 with the~Kunstmaan~CMS.
+
+            \item I~regularly directly communicated with clients on projects specifics during the~analysis phases.
+
+            \item I~designed and~executed the~migration process and~cleanup of over 2000 emails to a~new email marketing provider.
+
+            \item While coding HTML newsletter emails, I~created a~“meta language” in~PHP based on the~HTML object~model.
+            This~allowed me to effortlessly create content and~locale variations of the~emails.
+            That, paired with the~dotMailer~API client library I~wrote, cut the~estimated email deployment times by~80%.
+            The~library was later recognized by~dotMailer and~added to their list of community~projects.
+        \end{rSubsection}
+
+        \begin{rSubsection}{Accenture Services}{03/2011 -- 01/2013}{Application Operation Specialist}{}
+            \item I~was responsible for~running and~maintaining an~e-Billing application spread over multiple~servers.
+            The~application core was an~Oracle database running on~an~HP-UX~machine.
+            Data (PDF, XML) preprocessing and~loading was~controlled by~about four~hundred shell scripts and~binaries.
+            Final data population was~provided by 16~MS~Win~2005 servers with~ASP.
+            My~duties included: shell~script editing and~development, log~analysis (UNIX, DB),
+            installation of~patches and~releases (UNIX, WIN), performance tuning (UNIX)
+            and~administration of 9~MS~Win~2005 servers with~ASP.
+
+            \item I~also volunteered and~created a~web application providing incident tracking for~our~project.
+            This~application was~based on~PHP~5.3 with the~Nette framework, MySQL and~jQuery.
+        \end{rSubsection}
+
+        \begin{rSubsection}{Hewlett Packard}{12/2009 -- 08/2010}{1st line UNIX and database remote technical support}{}
+            \item I~was responsible for~identification, undertaking and~solving problems
+            in~my~range of~competence and~for~remote
+            technical support of~operating systems and~applications.
+        \end{rSubsection}
+
+    \end{rSection}
+
+    \begin{rSection}{Programming}
+        \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+            Advanced & CoffeeScript, PHP~5, shell (bash, ksh~88), Nette~framework, /regexp?/, git, sed, awk, SQL, MVC \\
+            Intermediate & AWS, HTML, Jade, JavaScript, XML, Magento \\
+            Basic & Sass, jQuery, CSS, Prolog, C/C++, Pascal, Python, LaTeX, Haskell, Oracle~PL/SQL
+        \end{tabular}
+    \end{rSection}
+
+    \begin{rSection}{Interests}
+        hiking (Norway, Belarus), canoeing, woodcraft, handwork, guitar \\
+        \begin{rSubsection}{}{}{Robotics}{}
+            \item In~2004 I~built my~first small robot for~the~Istrobot competition.
+            In~2007 I~joined a~team of~fifteen~MFF~UK students
+            building a~robot for~the~Eurobot~2008 contest.
+            In~2008 I~became head of~hardware department.
+            I~coauthored one of the~articles published about our robots
+            and~attended the~Eurobot~2009 conference in~France.
+        \end{rSubsection}
+    \end{rSection}
+
+    \begin{rSection}{Education, certificates, licenses}
+        \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+            2006 –- 2009 & Faculty of Mathematics and Physics, Charles University in Prague \\
+            2002 –- 2006 & Gymnázium Jozefa Gregora Tajovského, Banská Bystrica \\
+            & B1 English, Higher B2 German, Driving license B
+        \end{tabular}
+    \end{rSection}
+
+\end{document}
